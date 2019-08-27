@@ -18,7 +18,7 @@ describe 'fizz_buzz' do
         expect(fizz_buzz(-2)).to eq 'bruh, positive integers only thx'
     end
     it "returns 'bruh, positive integers only thx' if number is a string" do
-        expect(fizz_buzz('String')).to eq 'bruh, positive integers only thx'
+        expect(fizz_buzz('string')).to eq 'bruh, positive integers only thx'
     end
 
 end
